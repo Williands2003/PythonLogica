@@ -1,0 +1,9 @@
+#Faça um Programa que leia um vetor de 10 caracteres, #
+# e diga quantas consoantes foram lidas. Imprima as consoantes.
+
+letra = input("Digite uma letra: ")
+
+for conferir in letra:
+    if letra not in "aeiou":
+        print(conferir)
+    
