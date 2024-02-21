@@ -12,7 +12,7 @@ continuar = True
 
 # Loop para entrada de dados
 while continuar:
-    salario = float(input("Salário (digite 0 para encerrar): "))
+    salario = float(input("Salário (digite 0 para encerrar):"))
     
     if salario == 0:
         continuar = False  # Altera a flag para encerrar o loop
