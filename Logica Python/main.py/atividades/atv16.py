@@ -36,7 +36,7 @@ for _ in range(num_vendedores):
         salarios[8] += 1
 
 # Exibição dos resultados
-for i in range(len(salarios)):
+for x in range(len(salarios)):
     inicio_faixa = 200 + i * 100
     fim_faixa = inicio_faixa + 99 if i < 8 else "em diante"
     print(f"Vendedores com salário entre ${inicio_faixa} e ${fim_faixa}: {salarios[i]}")
