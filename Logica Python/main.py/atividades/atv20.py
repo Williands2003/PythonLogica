@@ -40,6 +40,6 @@ for salario, abono in salarios_abonos:
     print(f"R$ {salario:.2f} - R$ {abono:.2f}")
 
 print(f"Foram processados {total_colaboradores} colaboradores")
-print(f"Total gasto com abonos: R$ {total_gasto_abonos:.2f}.")
+print(f"Total gasto com abonos:R$ {total_gasto_abonos:.2f}.")
 print(f"Valor mínimo pago a {total_valor_minimo} colaboradores")
 print(f"Maior valor de abono pago: R$ {maior_valor_abono:.2f}")
